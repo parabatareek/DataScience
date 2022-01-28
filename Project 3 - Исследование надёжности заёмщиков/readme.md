@@ -20,3 +20,7 @@
     total_income — ежемесячный доход
     purpose — цель получения кредита
 
+# Инструменты #
+1. pandas
+2. pymystem3
+3. seaborn
