@@ -8,9 +8,10 @@
 
 # Инструменты #
 1. pandas
-3. numpy
-4. scipy
-5. plotly.express
+2. numpy
+3. scipy
+4. plotly_express
+5. seaborn
 
 # Описание данных #
     Name — название игры
