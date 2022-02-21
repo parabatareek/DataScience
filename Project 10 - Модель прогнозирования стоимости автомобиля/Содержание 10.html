@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <h1>Содержание<span class="tocSkip"></span></h1>
+    <div>
+        <ol>
+            <li>
+                <a href="#import_libs">Импорт библиотек</a>
+            </li>
+            <li>
+                <a href="#data">Данные</a>
+            </li>
+            <ul>
+                <li>
+                    <a href="#data_view">Осмотр данных</a>
+                </li>
+                <li>
+                    <a href="#data_prepare">Подготовка данных</a>
+                </li>
+                <ul>
+                    <li>
+                        <a href="#data_columns_rename">Переименование столбцов</a>
+                    </li>
+                    <li>
+                        <a href="#data_nan">Пропущенные значения</a>
+                    </li>
+                    <li>
+                        <a href="#data_columns_type">Изменение типов данных</a>
+                    </li>
+                    <li>
+                        <a href="#data_price_0">Удаление строк для которых цена = 0</a>
+                    </li>
+                    <li>
+                        <a href="#data_power_0">Удаление строк для которых мощность двигателя = 0</a>
+                    </li>
+                    <li>
+                        <a href="#data_registration_year_1885_2021">Удаление строк в которых 2021 < дата регистрации < 1885</a>
+                    </li>
+                    <li>
+                        <a href="#data_registration_month_replace">Замена 0 в столбце data['registration_month']</a>
+                    </li>
+                    <li>
+                        <a href="#data_number_of_pictures_remove">Удаление столбца data['number_of_pictures']</a>
+                    </li>
+                    <li>
+                        <a href="#data_correlation">Корреляция данных</a>
+                    </li>
+                    <li>
+                        <a href="#data_anomalies">Поиск аномалий данных</a>
+                    </li>
+                    <ul>
+                        <li>
+                            <a href="#anomaly_power">Аномалии data['power']</a>
+                        </li>
+                        <li>
+                            <a href="#anomaly_kilometer">Аномалии data['kilometer']</a>
+                        </li>
+                        <li>
+                            <a href="#anomaly_postal_code">Аномалии data['postal_code']</a>
+                        </li>
+                    </ul>
+                </ul>
+                <li>
+                    <a href="#data_features_target">Создание наборов features, target</a>
+                </li>
+                <li>
+                    <a href="#data_ohe_encoder">OHE-преобразование признаков</a>
+                </li>
+                <li>
+                    <a href="#data_train_valid">Создание учебного/валидационного набора данных</a>
+                </li>
+            </ul>
+            <li>
+                <a href="#model">Обучение моделей</a>
+            </li>
+            <ul>
+                <li>
+                    <a href="#model_params_function">Функция наборов гиперпараметров</a>
+                </li>
+                <li>
+                    <a href="#model_scorer_function">Функция оценщика</a>
+                </li>
+                <li>
+                    <a href="#model_scorer_init">Инициализация оценщика</a>
+                </li>
+                <li>
+                    <a href="#model_analyse">Анализ моделей</a>
+                </li>
+                <ul>
+                    <li>
+                        <a href="#model_decision_tree_params">Подбор гиперпараметров DecisionTreeRegressor</a>
+                    </li>
+                    <li>
+                        <a href="#model_xgb_params">Подбор гиперпараметров XGBRegressor</a>
+                    </li>
+                    <li>
+                        <a href="#model_lgbm_params">Подбор гиперпараметров LGBMRegressor</a>
+                    </li>
+                    <li>
+                        <a href="#model_cbr_params">Подбор гиперпараметров CatBoostRegressor</a>
+                    </li>
+                </ul>
+                <li>
+                    <a href="#model_prediction">Предсказание моделей</a>
+                </li>
+                <ul>
+                    <li>
+                        <a href="#model_decision_tree_predict">Предсказания DecisionTree</a>
+                    </li>
+                    <li>
+                        <a href="#model_linear_regression_predict">Предсказания LinearRegression</a>
+                        <ul>
+                            <li>
+                                <a href="#model_linear_regression_scale">Масштабирование признаков для LinearRegression</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#model_linear_regression_scale">Масштабирование признаков для LinearRegression</a>
+                    </li>
+                    <li>
+                        <a href="#model_xgb_predict">Предсказания XGBRegressor</a>
+                    </li>
+                    <li>
+                        <a href="#model_lgbm_predict">Предсказание LGBMRegressor</a>
+                    </li>
+                    <li>
+                        <a href="#model_cbr_predict">Предсказания CatBoostRegressor</a>
+                    </li>
+                </ul>
+            </ul>
+        </ol>
+    </div>
+</head>
+<body>
+
+</body>
+</html>
