@@ -20,7 +20,7 @@
 3. pandas
 4. seaborn
 5. matplotlib
-6. plotly_express as px
+6. plotly_express
 7. sklearn
 8. catboost
 9. xgboost
