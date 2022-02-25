@@ -12,7 +12,7 @@
 1. pandas
 2. numpy
 3. sklearn
-4. plotly.express as px
+4. plotly.express
 
 # Описание данных #
 Данные находятся в трёх файлах:
